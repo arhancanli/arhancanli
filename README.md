@@ -7,10 +7,15 @@ point-in-time data, realistic execution, explicit trial accounting, reproducible
 publication of negative results. The objective is not to advertise a backtest; it is to make every
 published claim inspectable and every limitation difficult to hide.
 
+I am also building **[TraceAxiom](https://traceaxiom.com)**, a verification-first AI software
+engineering system that coordinates specialist coding agents and binds accepted changes to
+independent build, behavior, accessibility, security, and authority evidence.
+
 ## Featured work
 
-| Repository | Purpose |
+| Project | Purpose |
 | --- | --- |
+| [TraceAxiom](https://traceaxiom.com) | Verification-first AI software engineering, dependency-aware specialist agents, independent evaluation, and source-bound evidence. |
 | [ALPHAC](https://github.com/arhancanli/alphac) | Python research engine, validation framework, execution simulation, portfolio construction, and machine-readable evidence artifacts. |
 | [Canli Capital](https://github.com/arhancanli/canlicapital) | Open research and evidence site for ALPHAC's methodology, paper record, kill log, corrections, and technical writing. |
 | [CubeDuel](https://github.com/arhancanli/cubeduel) | Speedcubing platform with server-verified solves and a from-scratch sub-second Kociemba solver. |
@@ -27,4 +32,4 @@ published claim inspectable and every limitation difficult to hide.
 ALPHAC and Canli Capital currently publish research and paper-trading evidence. Nothing in these
 repositories is investment advice, an offer, or a representation of guaranteed performance.
 
-[canlicapital.com](https://canlicapital.com)
+[traceaxiom.com](https://traceaxiom.com) · [canlicapital.com](https://canlicapital.com)
