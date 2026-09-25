@@ -18,6 +18,8 @@ independent build, behavior, accessibility, security, and authority evidence.
 | [TraceAxiom](https://traceaxiom.com) | Verification-first AI software engineering, dependency-aware specialist agents, independent evaluation, and source-bound evidence. |
 | [ALPHAC](https://github.com/arhancanli/alphac) | Python research engine, validation framework, execution simulation, portfolio construction, and machine-readable evidence artifacts. |
 | [Canli Capital](https://github.com/arhancanli/canlicapital) | Open research and evidence site for ALPHAC's methodology, paper record, kill log, corrections, and technical writing. |
+| [Canli validation MCP server](https://www.npmjs.com/package/canli-validation-mcp) | Model Context Protocol server for AI agents: deflated Sharpe, CSCV overfitting (PBO), paper-evidence and breadth checks, and SEC company financial histories, each returned with its boundary language. Listed in the [official MCP registry](https://registry.modelcontextprotocol.io/) as `io.github.arhancanli/canli-validation-mcp`. |
+| [Validation API](https://canlicapital.com/developers) | Free HTTP API behind the MCP server: get a key, validate a backtest, keep a receipt. |
 | [CubeDuel](https://github.com/arhancanli/cubeduel) | Speedcubing platform with server-verified solves and a from-scratch sub-second Kociemba solver. |
 | [Hollowtide](https://github.com/arhancanli/hollowtide) | Deterministic browser-game simulation with a measurement harness and zero external asset files. |
 
