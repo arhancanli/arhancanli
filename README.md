@@ -7,6 +7,21 @@ servers let your AI assistant run the same checks on your own backtests.
 [canlicapital.com](https://canlicapital.com) · [traceaxiom.com](https://traceaxiom.com) ·
 [ORCID 0009-0004-4138-7907](https://orcid.org/0009-0004-4138-7907)
 
+## Recent work
+
+- Found that the Python package [arch](https://github.com/bashtage/arch)'s SPA test, as merged in
+  [#871](https://github.com/bashtage/arch/pull/871), rejects 13.5% of skill-less strategy searches at a
+  nominal 5% ([#879](https://github.com/bashtage/arch/issues/879)), and proposed a fix that brings it to
+  about 6% ([#881](https://github.com/bashtage/arch/pull/881)).
+- [The Null Zoo](https://github.com/arhancanli/null-zoo): how often backtest-overfitting corrections
+  keep their promise, measured on synthetic searches where the truth is known.
+- [A placebo test for trading pipelines](https://dev.to/arhancanli/your-backtest-beat-a-t-test-would-it-beat-a-placebo-1a6n):
+  300,000 simulated tests; a t-test on the best rule said "edge" up to 78.9% of the time, the placebo
+  held between 4.6% and 5.5% at a nominal 5%.
+
+If any of this saves you from trusting a backtest that isn't real, a ⭐ on
+[canlicapital](https://github.com/arhancanli/canlicapital) helps other quants find it.
+
 ## Start here
 
 | Repository | What it does | Try it |
