@@ -1,14 +1,27 @@
 # Arhan Canli
 
 I build **[Canli Capital](https://canlicapital.com)**: open quant research where every published
-number comes with the file that produced it, including the strategies that failed. Its free MCP
-servers let your AI assistant run the same checks on your own backtests.
+number comes with the file that produced it, including the strategies that failed.
+
+Its flagship, **[canli-mcp](https://github.com/arhancanli/canlicapital/tree/main/mcp-canli)**, puts 306
+free finance tools behind three for Claude and any MCP client: SEC filings, insider trades, 13F and
+13D/G holders, options, FOMC and macro data, quant analytics and backtest validation. MIT, no API key,
+runs on your machine: `npx -y canli-mcp`.
 
 [canlicapital.com](https://canlicapital.com) · [traceaxiom.com](https://traceaxiom.com) ·
 [ORCID 0009-0004-4138-7907](https://orcid.org/0009-0004-4138-7907)
 
 ## Recent work
 
+- Found that EDGAR's submissions API gives the same filing two different acceptance times, depending
+  on which company's file you read: 450 filings measured, 13 of 25 files late by one Eastern offset
+  ([write-up](https://canlicapital.com/notes/edgar-acceptance-times),
+  [data on edgartools#1501](https://github.com/dgunning/edgartools/issues/1501#issuecomment-6108854678)).
+- Fixed a look-ahead bug in [lumibot](https://github.com/Lumiwealth/lumibot)'s point-in-time SEC
+  fundamentals: a 10-K accepted at 16:08 ET was visible to a backtest at 10:00 ET that day
+  ([#1209](https://github.com/Lumiwealth/lumibot/pull/1209)).
+- [canli-mcp 0.3.0](https://dev.to/arhancanli/canli-mcp-306-free-finance-tools-for-claude-and-any-mcp-client-measured-against-openbb-1jpm):
+  306 finance tools for 1,109 tokens of context, measured against OpenBB, EdgarTools and Yahoo.
 - Found that the Python package [arch](https://github.com/bashtage/arch)'s SPA test, as merged in
   [#871](https://github.com/bashtage/arch/pull/871), rejects 13.5% of skill-less strategy searches at a
   nominal 5% ([#879](https://github.com/bashtage/arch/issues/879)), and proposed a fix that brings it to
@@ -26,7 +39,8 @@ If any of this saves you from trusting a backtest that isn't real, a ⭐ on
 
 | Repository | What it does | Try it |
 | --- | --- | --- |
-| [canlicapital](https://github.com/arhancanli/canlicapital) | The open research site, the free validation API and the three MCP servers below, in one repository. | [canlicapital.com](https://canlicapital.com) |
+| [canli-mcp](https://github.com/arhancanli/canlicapital/tree/main/mcp-canli) | Every Canli server in one: 306 finance tools behind three (find, describe, run). SEC filings, ownership, options, the Fed and macro, quant analytics, backtest validation. | `npx -y canli-mcp` |
+| [canlicapital](https://github.com/arhancanli/canlicapital) | The open research site, the free validation API and every MCP server, in one repository. | [canlicapital.com](https://canlicapital.com) |
 | [canli-validation-mcp](https://github.com/arhancanli/canli-validation-mcp) | Is your backtest real? Deflated Sharpe, overfitting (CSCV), data-snooping tests and a backtest lab, with signed receipts. On the [official MCP registry](https://registry.modelcontextprotocol.io/). | `npx -y canli-validation-mcp` |
 | [canli-research-mcp](https://github.com/arhancanli/canli-research-mcp) | Has this quant idea been tried, and how did it end? Papers, killed candidates and trial counts. | `npx -y canli-research-mcp` |
 | [canli-fundamentals-mcp](https://github.com/arhancanli/canli-fundamentals-mcp) | SEC fundamentals point in time: what a company first reported, and what was known on any date. | `npx -y canli-fundamentals-mcp` |
