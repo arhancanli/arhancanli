@@ -3,10 +3,12 @@
 I build **[Canli Capital](https://canlicapital.com)**: open quant research where every published
 number comes with the file that produced it, including the strategies that failed.
 
-Its flagship, **[canli-mcp](https://github.com/arhancanli/canlicapital/tree/main/mcp-canli)**, puts 306
+Its flagship, **[canli-mcp](https://github.com/arhancanli/canlicapital/tree/main/mcp-canli)**, puts 315
 free finance tools behind three for Claude and any MCP client: SEC filings, insider trades, 13F and
 13D/G holders, options, FOMC and macro data, quant analytics and backtest validation. MIT, no API key,
 runs on your machine: `npx -y canli-mcp`.
+
+If it saves you time, a ⭐ on [the canlicapital repo](https://github.com/arhancanli/canlicapital) is how other developers find it.
 
 [canlicapital.com](https://canlicapital.com) · [traceaxiom.com](https://traceaxiom.com) ·
 [ORCID 0009-0004-4138-7907](https://orcid.org/0009-0004-4138-7907)
